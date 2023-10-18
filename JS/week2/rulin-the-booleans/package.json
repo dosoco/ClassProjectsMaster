@@ -8,7 +8,7 @@
     "mocha": "^10.2.0"
   },
   "scripts": {
-    "test": "mocha main.test.js"
+    "test": "mocha -w main.test.js"
   },
   "keywords": [],
   "author": "",

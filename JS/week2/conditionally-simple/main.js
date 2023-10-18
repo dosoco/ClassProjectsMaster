@@ -27,8 +27,8 @@ if (typeof howLongIsMyString === 'undefined') {
   howLongIsMyString = undefined;
 }
 
-if (typeof instructorHeight === 'undefined') {
-  instructorHeight = undefined;
+if (typeof personsHeight === 'undefined') {
+  personsHeight = undefined;
 }
 
 
