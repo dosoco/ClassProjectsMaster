@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="header">
+
+    <!-- You should have a page title in an h1 element with an id of title -->
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+
+    <!-- You should have a short explanation in a p element with an id of description -->
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+        
+    </div>
+    <div class="form-div">
+
+        <!-- You should have a form element with an id of survey-form -->
+        <form action="" id="survey-form">
+            
+
+                <!-- Inside the form element, you are required to enter your name in an input field that has an id of name and a type of text -->
+
+                <!-- For the name, email, and number input fields, you can see corresponding label elements in the form, that describe the purpose of each field with the following ids: id="name-label", id="email-label", and id="number-label" -->
+
+                <!-- For the name, email, and number input fields, you can see placeholder text that gives a description or instructions for each field -->
+                <label for="name"  id="name-label">Name<input type="text" name="name" id="name" required placeholder="Enter your Name"></label>
+
+                <!-- Inside the form element, you are required to enter your email in an input field that has an id of email -->
+
+                <!-- If you enter an email that is not formatted correctly, you will see an HTML5 validation error -->
+
+                <!-- For the name, email, and number input fields, you can see corresponding label elements in the form, that describe the purpose of each field with the following ids: id="name-label", id="email-label", and id="number-label" -->
+
+                <!-- For the name, email, and number input fields, you can see placeholder text that gives a description or instructions for each field -->
+                <label for="email" id="email-label">Email<input type="email" name="email" id="email" required placeholder="Enter your Email"></label>
+
+                <!-- Inside the form, you can enter a number in an input field that has an id of number -->
+            
+                <!-- The number input should not accept non-numbers, either by preventing you from typing them or by showing an HTML5 validation error (depending on your browser). -->
+
+                <!-- If you enter numbers outside the range of the number input, which are defined by the min and max attributes, you will see an HTML5 validation error -->
+
+                <!-- For the name, email, and number input fields, you can see corresponding label elements in the form, that describe the purpose of each field with the following ids: id="name-label", id="email-label", and id="number-label" -->
+
+                <!-- For the name, email, and number input fields, you can see placeholder text that gives a description or instructions for each field -->
+                <label for="number" id="number-label">Age (optional)<input type="number" name="number" id="number" pattern="[0-9]" min="0" max="100" placeholder="Age"></label>
+            
+
+                <!-- Inside the form element, you should have a select dropdown element with an id of dropdown and at least two options to choose from -->
+                <label for="dropdown" id="dropdown-label">Which option best describes your current role?
+                <select name="dropdown" id="dropdown">
+                    <option value="">Select current role</option>
+                    <option value="1">Student</option>
+                    <option value="2">Full Time Job</option>
+                    <option value="3">Full Time Learner</option>
+                    <option value="4">Prefer not to say</option>
+                    <option value="5">Other</option>
+                </select>
+                </label>
+            
+
+            
+                <span class="section-headers">Would you recommend freeCodeCamp to a friend?</span>
+
+                <!-- Inside the form element, you can select an option from a group of at least two radio buttons that are grouped using the name attribute -->
+                <label for="radio" id="radio-label">
+                    <input type="radio" name="radio" id="radio" checked class="inline" value="radio">Definitely
+                </label>
+                <label for="radio" id="radio-label">
+                    <input type="radio" name="radio" id="radio" class="inline" value="radio">Maybe
+                </label>
+                <label for="radio" id="radio-label">
+                    <input type="radio" name="radio" id="radio" class="inline" value="radio">Not sure
+                </label>
+            
+
+            
+            <label for="dropdown2" id="dropdown2-label">What is your favorite feature of freeCodeCamp?
+                <select name="dropdown2" id="dropdown2">
+                    <option value="">Select an option</option>
+                    <option value="1">Challenges</option>
+                    <option value="2">Projects</option>
+                    <option value="3">Community</option>
+                    <option value="4">Open Source</option> 
+                </select>
+                </label>
+            
+
+            
+                <span class="section-headers">What would you like to see improved? (Check all that apply)</span>
+
+                <!-- Inside the form element, you can select several fields from a series of checkboxes, each of which must have a value attribute -->
+                <label for="checkbox" id="checkbox-label">
+                    <input type="checkbox" name="checkbox" id="checkbox" value="checkbox" class="inline">Front-end Projects
+                </label>
+                <label for="checkbox" id="checkbox-label">
+                    <input type="checkbox" name="checkbox" id="checkbox" value="checkbox" class="inline">Back-end Projects
+                </label>
+                <label for="checkbox" id="checkbox-label">
+                    <input type="checkbox" name="checkbox" id="checkbox" value="checkbox" class="inline">Data Visualization
+                </label>
+                <label for="checkbox" id="checkbox-label">
+                    <input type="checkbox" name="checkbox" id="checkbox" value="checkbox" class="inline">Challenges
+                </label>
+                <label for="checkbox" id="checkbox-label">
+                    <input type="checkbox" name="checkbox" id="checkbox" value="checkbox" class="inline">Open Source Community
+                </label>
+                <label for="checkbox" id="checkbox-label">
+                    <input type="checkbox" name="checkbox" id="checkbox" value="checkbox" class="inline">Gitter help rooms
+                </label>
+                <label for="checkbox" id="checkbox-label">
+                    <input type="checkbox" name="checkbox" id="checkbox" value="checkbox" class="inline">Videos
+                </label>
+                <label for="checkbox" id="checkbox-label">
+                    <input type="checkbox" name="checkbox" id="checkbox" value="checkbox" class="inline">City Meetups
+                </label>
+                <label for="checkbox" id="checkbox-label">
+                    <input type="checkbox" name="checkbox" id="checkbox" value="checkbox" class="inline">Wiki
+                </label>
+                <label for="checkbox" id="checkbox-label">
+                    <input type="checkbox" name="checkbox" id="checkbox" value="checkbox" class="inline">Forum
+                </label>
+                <label for="checkbox" id="checkbox-label">
+                    <input type="checkbox" name="checkbox" id="checkbox" value="checkbox" class="inline">Additional Courses
+                </label>
+            
+
+            
+                <span class="section-headers">Any comments or suggestions?</span>
+
+                <!-- Inside the form element, you are presented with a textarea for additional comments -->
+                <textarea name="" id="" cols="30" rows="10" placeholder="Enter your comment here..."></textarea>
+            
+
+            
+
+                <!-- Inside the form element, you are presented with a textarea for additional comments -->
+                <input type="submit" value="Submit" id="submit">
+            
+        </form>
+    </div>
+
+    <div class="background-img">
+        <img src="https://images.unsplash.com/photo-1614741118887-7a4ee193a5fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="background image" class="background-image">
+    </div>
+
+</body>
+</html>
