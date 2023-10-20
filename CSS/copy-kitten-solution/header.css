@@ -1,0 +1,25 @@
+#header {
+	text-align: center;
+	padding: 10px 0;
+	margin: 30px 0 0;  
+	background: #404049;
+	letter-spacing: 1.9px; 
+}
+
+ul a {
+	padding: 15px;
+}
+
+ul a, ul a:visited {
+	color: #d1cbcd;
+	text-decoration: none;
+}
+
+ul a:hover {
+	color:#13af98;
+	transition: all 500ms ease-in-out;  
+}
+
+li {
+	display: inline;
+}

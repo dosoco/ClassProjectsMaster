@@ -1,0 +1,39 @@
+#table, #table div {
+  margin: 20px;
+}
+
+#table a {
+  text-decoration: none;
+}
+
+.row a {
+  border: 1px solid black;
+}
+
+#row-1 a {
+  border-top: 0;
+}
+
+#row-3 a {
+  border-bottom: 0;
+}
+
+/* nth-child solution */
+
+/* #table a:nth-child(1) {
+  border-left: 0;
+}
+
+#table a:nth-child(3) {
+  border-right: 0;
+} */
+
+/* Or, instead of nth-child, using the classes we made: */
+
+a.left-column {
+  border-left: 0;
+}
+
+a.right-column {
+  border-right: 0;
+}
