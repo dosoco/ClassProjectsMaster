@@ -1,4 +1,4 @@
-# Functions With Global Variables
+# Functions With Parameters
 
 ### Setup
 
