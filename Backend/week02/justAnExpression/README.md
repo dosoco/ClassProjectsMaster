@@ -3,8 +3,8 @@
 ## Instructions
 
 1. **Project Setup**
-   - Create a new directory called `express-cr-hw`.
-   - Navigate to the `express-cr-hw` folder.
+   - Create a new directory called `justAnExpression`.
+   - Navigate to the `justAnExpression` folder.
    - Create an `app.js` file using the `touch` command.
    - Initialize a Node.js project with default settings using `npm init -y`.
    - Open the project folder.
@@ -48,8 +48,5 @@
 
 6. **POST Route in Todo Router**
    - Create a POST route for `/create-new-todo` that posts a new todo with an automatically generated ID and a `done` value that is always `false`. Respond with the updated `todos` array.
-
-7. **Finalization**
-   - At the bottom of the `app.js` file, add `module.exports = app` and comment out the `app.listen` statement.
 
 Follow these instructions carefully to create your Express CRUD application.

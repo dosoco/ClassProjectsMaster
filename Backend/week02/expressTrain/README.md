@@ -1,11 +1,11 @@
-# Express Homework
+# Express Train
 
 ## Instructions
 
 1. Create an Express app.
 
-   - Make a new directory called `express-intro-hw`.
-   - Navigate inside the `express-intro-hw` folder.
+   - Make a new directory called `expressTrain`.
+   - Navigate inside the `expressTrain` folder.
    - Create an `app.js` file in the terminal using `touch`.
    - Initialize a Node.js project in the terminal using `npm init -y`.
    - Open the folder.
