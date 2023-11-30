@@ -42,7 +42,7 @@ async function updateUserByID(req, res, next) {
 
 async function deleteUserByID(req, res, next) {
     try{
-        let deletedUser = await User.findByIdAndRemove(req.params.id);
+        let deletedUser = await User.findByIdAndDelete(req.params.id);
         res.json({message: "success", deletedUser})
     }catch(e){
         res.json({message:"error", error: e});

@@ -56,7 +56,7 @@ module.exports = {
       },
     deleteUserByID: function (id) {
         return new Promise((resolve, reject) =>{
-            User.findByIdAndRemove({_id:id})
+            User.findByIdAndDelete({_id:id})
             .then((payload) =>{
                 resolve(payload)
             })

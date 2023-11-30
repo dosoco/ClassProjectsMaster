@@ -57,9 +57,13 @@ module.exports = {
           })
       },
     deleteUserByID: function (id, callback) {
-        User.findByIdAndRemove({ _id: id })
+        User.findByIdAndDelete({ _id: id })
         .then(deletedPayload=>{
           callback(null, deletedPayload)
+        })
+        .catch(error => {
+          console.log(error)
+          callback(...arguments, null)
         })
     },
 };
