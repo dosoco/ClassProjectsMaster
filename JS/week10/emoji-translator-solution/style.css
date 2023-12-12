@@ -1,0 +1,19 @@
+.radio-button {
+    display: block;
+}
+#help-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#help-toggle {
+    cursor: pointer;
+}
+
+#help-list {
+    list-style-type: none;
+}
+
+#help-list li {
+    margin-bottom: 10px;
+}

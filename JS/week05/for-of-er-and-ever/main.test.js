@@ -1,6 +1,36 @@
 /******************
  * YOUR CODE HERE *
  ******************/
+const addAll = function(arr){
+  let sum = 0
+  for(let num of arr){
+    sum += num
+  }
+  return sum
+}
+
+const countSpaces = function(str){
+let count = 0
+for(let char of str){
+  if(char === " "){
+    count++
+  }
+}
+return count
+}
+
+const countTrues = function (booleans){
+  let count = 0
+  for (let bool of booleans){
+    if (bool === true){
+      count++
+    }
+  }
+  return count
+}
+
+
+
 
 
 /*********************************
@@ -42,14 +72,7 @@ if (typeof integersOnly === 'undefined') {
 }
 
 const assert = require('assert');
-const {
-  addAll,
-  countSpaces,
-  countTrues,
-  makeFriendly,
-  cubeAll,
-  addNoises,
-} = require('./your-functions'); // Import your functions
+
 
 describe('addAll', () => {
   it(`adds all the numbers in the array`, () => {
